@@ -300,7 +300,7 @@ footer {
     display:grid;
     grid-template-columns:repeat(3,1fr);
 
-    background:#d61f26;
+    background: var(--sector-color);
 
     border-radius:12px;
 
@@ -501,7 +501,7 @@ footer {
 }
 
 .route-navigation a {
-    color: #e31b23;
+    color: var(--sector-color);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.05rem;
@@ -514,4 +514,42 @@ footer {
 
 .route-navigation a:hover {
     background-color: #f5f5f5;
+}
+
+/* =========================
+   SEKTOR PFEILER – GRÜN
+   ========================= */
+
+.sector-pfeiler .route-number {
+    background-color: #00a651;
+}
+
+.sector-pfeiler .back-link {
+    color: #00a651;
+}
+
+.sector-pfeiler .route-card:hover {
+    border-color: #00a651;
+}
+
+/* Pfeiler Übersichtsbild kompakter */
+.sector-pfeiler .sector-image-large img {
+    height: 600px;
+    object-fit: cover;
+    object-position: center 65%;
+}
+
+/* ---------- SEKTORFARBEN ---------- */
+
+.sector-suedwestwand {
+    --sector-color: #e31b23;
+}
+
+.sector-pfeiler {
+    --sector-color: #00a651;
+}
+
+/* zurück-link färben */
+.route-page .back-link {
+    color: var(--sector-color);
 }
