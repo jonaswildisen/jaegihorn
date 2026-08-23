@@ -473,3 +473,45 @@ footer {
 
     cursor: pointer;
 }
+
+.route-meta {
+    margin: 25px 0 35px;
+    padding: 18px 22px;
+
+    background-color: #f7f7f7;
+
+    border-radius: 8px;
+}
+
+.route-meta p {
+    margin: 5px 0;
+}
+
+/* ---------- ROUTEN-NAVIGATION ---------- */
+
+.route-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+    padding-top: 25px;
+
+    border-top: 1px solid #ddd;
+}
+
+.route-navigation a {
+    color: #e31b23;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.05rem;
+
+    padding: 12px 16px;
+    border-radius: 8px;
+
+    transition: background-color 0.2s ease;
+}
+
+.route-navigation a:hover {
+    background-color: #f5f5f5;
+}
